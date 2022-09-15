@@ -1,0 +1,66 @@
+.seccionMenu{
+
+    height: 650px;
+    
+    display: flex;
+    background-color:white;
+
+    .imagen{
+       
+        object-fit: cover;
+        flex-wrap: wrap;
+        width: 50%;
+        overflow: hidden;
+    
+        img{
+            width: 70%;
+            height: 100%;
+        }
+    }
+    .parte2{
+        
+        width: 50%;
+
+        .tituloMenu{
+        
+            width: 650px;
+            margin: 10% auto;
+            
+            h1{
+               
+                font-size: 50px;
+                text-transform: uppercase;
+                text-align: center;
+                
+
+                
+            }
+        }
+        .pdf{
+            
+            margin: auto;
+            text-align: center;
+            padding: 5%;
+            a{
+                color: white;
+                border-radius: 10px;
+                font-size: 50px;
+                text-align: center;
+                text-decoration: none;
+                background-color: $colormorado;
+                padding: 15px;
+                transition: 1s;
+               
+                box-shadow: 2px 2px 15px rgb(234, 52, 234);
+            
+                &:hover{
+                    color: rgb(163, 12, 163);
+                    padding: 20px;
+                    transition: 1s;
+                }
+            }
+        }
+    }
+    
+    
+}
